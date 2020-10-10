@@ -31,6 +31,11 @@ public void draw() {
 
 }
 
+public void read() {
+	
+	logic.read();
+
+}
 public void mouse() {
 	
 	logic.mouseCliked();

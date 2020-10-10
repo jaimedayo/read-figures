@@ -26,7 +26,7 @@ public void settings() {
 public void setup() {
 
 	 c= new Controller(this); 
-	
+	c.read();
 }
 public void draw() {
 	
