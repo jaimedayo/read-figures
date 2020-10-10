@@ -6,6 +6,8 @@ import processing.core.PApplet;
 public class Mainscrean extends PApplet {
 	
 Controller c;
+String lista2 [] ;
+String[] lista1;
 
 
 	public static void main(String[] args) {
@@ -14,10 +16,6 @@ Controller c;
 		
 	}
 
-
-
-
-	
 
 	
 public void settings() {
@@ -34,6 +32,7 @@ public void draw() {
 	
 	c.draw();
 	
+	
 }
 public void mouseCliked() {
 	
@@ -41,6 +40,9 @@ public void mouseCliked() {
 	
 }
 
+
 }
+
+
 
 
