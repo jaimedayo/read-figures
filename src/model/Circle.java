@@ -10,8 +10,8 @@ public class Circle extends Element{
 		// TODO Auto-generated constructor stub
 	}
 
-	public void draw() {
-		
-	}
-
+	public void draw(int r, int g ,int b) {
+		app.fill(r,g,b);
+		app.ellipse(posX, posY, radio,radio);
+		}
 }

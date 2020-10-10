@@ -10,6 +10,7 @@ public Rectangle(float posX, float posY, float radio, boolean active, boolean di
 	}
 
 public void draw(int r, int g ,int b) {
-	
+	app.fill(r,g,b);
+	app.rect(posX, posY, radio,radio, radio);
 	}
 }
